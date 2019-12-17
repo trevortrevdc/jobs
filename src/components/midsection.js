@@ -15,121 +15,103 @@ const Midsection = () => (
 	<div>
 		<section className="section">
 			<div className="container">
+				<p className="title is-1 has-text-weight-bold">Which Job is Right for You?</p>
+				<p className="subtitle is-5">It takes hundreds of smiling faces with many different talents to deliver on our promise of fun and safety every summer. Select a job category to learn more about our opportunities.</p>
 				<div className="columns is-multiline">
-					<div className="column is-one-third">
+					<div className="column is-half">
+						<div className="notification">
+							<h1 className="title is-size-4">Lifeguards</h1>
+									<p className="subtitle is-size-5">
+									Are you ready to join an elite team? Our lifeguarding staff is among the nation's most decorated and successful. We are looking for talented new team members to join us this summer.
+									</p>
+									<button className="button is-primary is-fullwidth is-medium">Learn More!</button>
+						</div>
+					</div>
+					<div className="column is-half">
+						<div className="notification">
+							<h1 className="title is-size-4">Counselors</h1>
+									<p className="subtitle is-size-5">
+									Do you enjoy the outdoors, sports and crafts? Do you have a passion for working with youth and helping them reach their full potential? If so, we've got the ultimate summer job for you!
+									</p>
+									<button className="button is-primary is-fullwidth is-medium">Learn More!</button>
+						</div>
+					</div>
+					<div className="column is-half">
+						<div className="notification">
+							<h1 className="title is-size-4">Concessions</h1>
+									<p className="subtitle is-size-5">
+									Do you enjoy the excitement of a fast-paced kitchen? Want to ensure guests are served safe, delicious food during their visits? This might be the right job for you! Click to learn more...
+									</p>
+									<button className="button is-primary is-fullwidth is-medium">Learn More!</button>
+						</div>
+					</div>
+					<div className="column is-half">
+						<div className="notification">
+							<h1 className="title is-size-4">Guest Services</h1>
+									<p className="subtitle is-size-5">
+									It takes a huge seasonal staff to deliver excellent customer service in our parks every summer. We're looking for motivated people with smiling faces. Do you have what it takes?
+									</p>
+									<button className="button is-primary is-fullwidth is-medium">Learn More!</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section className="section">
+			<div className="container">
+				<p className="title is-1 has-text-weight-bold">Attend one of our Hiring Events</p>
+				<p className="subtitle is-5">Our hiring managers will be holding open interviews at each of the events listed. Lifeguard applicants will take swim tests when attending lifeguard-specific hiring events, so bring your swimsuit to the hiring event!</p>
+				<div className="columns is-multiline">
+					<div className="column is-one-third-desktop is-half-tablet">
 						<article className="media">
-							<figure className="media-left">
-								<span className="icon is-medium">
-									<FaSass size="fa-2x" color="#d22780" />
-								</span>
-							</figure>
 							<div className="media-content">
 								<div className="content">
-									<h1 className="title is-size-4">Uses Bulma</h1>
+									<h1 className="title is-size-4">SplashDown Job Fair</h1>
 									<p className="subtitle is-size-5">
-										Bulma is an open source CSS framework and used by more than
-										100,000 developers.
+									Saturday, February 29, 2020<br></br>
+									9:00 am - 11:00 am<br></br>
+									Stonewall Jackson High School<br></br>
+									8820 Rixlew Lane<br></br>
+									Manassas, VA 20109
 									</p>
 								</div>
 							</div>
 						</article>
 					</div>
-					<div className="column is-one-third">
+					<div className="column is-one-third-desktop is-half-tablet">
 						<article className="media">
-							<figure className="media-left">
-								<span className="icon is-medium">
-									<FaHtml5 size="fa-2x" className="has-text-danger" />
-								</span>
-							</figure>
 							<div className="media-content">
 								<div className="content">
-									<h1 className="title is-size-4">JAMStack Solution</h1>
+									<h1 className="title is-size-4">Lifeguard Hiring Event</h1>
 									<p className="subtitle is-size-5">
-										It’s a new way of building websites and apps that delivers
-										better performance, higher security, lower cost of scaling,
-										and a better developer experience.
+									Wednesday, March 4, 2020<br></br>
+									6:30 pm - 8:00 pm<br></br>
+									Chinn Aquatics and Fitness Center<br></br>
+									13025 Chinn Park Dr<br></br>
+									Woodbridge, VA 22192
 									</p>
 								</div>
 							</div>
 						</article>
 					</div>
-					<div className="column is-one-third">
+					<div className="column is-one-third-desktop is-half-tablet">
 						<article className="media">
-							<figure className="media-left">
-								<span className="icon is-medium">
-									<FaReact size="fa-2x" color="#5e227f" />
-								</span>
-							</figure>
 							<div className="media-content">
 								<div className="content">
-									<h1 className="title is-size-4">Gatsby + React?</h1>
+									<h1 className="title is-size-4">Lifeguard Hiring Event</h1>
 									<p className="subtitle is-size-5">
-										Uses Gatsby's version <code>v2</code>, enjoy the power of
-										the latest web technologies. All set up and waiting for you
-										to start building.
-									</p>
-								</div>
-							</div>
-						</article>
-					</div>
-					<div className="column is-one-third">
-						<article className="media">
-							<figure className="media-left">
-								<span className="icon is-medium">
-									<FaMobileAlt size="fa-2x" color="blue" />
-								</span>
-							</figure>
-							<div className="media-content">
-								<div className="content">
-									<h1 className="title is-size-4">Responsive Design</h1>
-									<p className="subtitle is-size-5">
-										Bulma is based on the Flexbox model and built with Sass. The
-										simplest grid system Just add columns, they will resize
-										themselves, like this website.
+									Thursday, March 19, 2020<br></br>
+									6:30 pm - 8:00 pm<br></br>
+									Freedom Aquatic & Fitness Center<br></br>
+									9100 Freedom Center Blvd<br></br>
+									Manassas, VA 20110
 									</p>
 								</div>
 							</div>
 						</article>
 					</div>
 
-					<div className="column is-one-third">
-						<article className="media">
-							<figure className="media-left">
-								<span className="icon is-medium">
-									<FaOsi size="fa-2x" className="has-text-primary" />
-								</span>
-							</figure>
-							<div className="media-content">
-								<div className="content">
-									<h1 className="title is-size-4">Open Source</h1>
-									<p className="subtitle is-size-5">
-										This starter kit is MIT Licensed. Need I say more?
-										<Emoji emoji="🤑" />
-									</p>
-								</div>
-							</div>
-						</article>
-					</div>
-					<div className="column is-one-third">
-						<article className="media">
-							<figure className="media-left">
-								<span className="icon is-medium">
-									<FaRocket size="fa-2x" className="has-text-danger" />
-								</span>
-							</figure>
-							<div className="media-content">
-								<div className="content">
-									<h1 className="title is-size-4">Starter Kit</h1>
-									<p className="subtitle is-size-5">
-										This starter kit is target to developers who are looking
-										forward to use Bulma along with GatsbyJS. You can read more
-										in the <a href="https://gatsbyjs.org">documentation</a> on
-										how to get started.
-									</p>
-								</div>
-							</div>
-						</article>
-					</div>
 				</div>
 			</div>
 		</section>

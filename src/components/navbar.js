@@ -2,11 +2,10 @@ import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 
 import './style.scss';
-import gatsbyLogo from '../images/gatsby-icon.png';
-import bulmaLogo from '../images/bulma-logo.png';
+import logo from '../images/logo.png';
 
 const Navbar = () => (
-	<div className="hero-head is-hidden-mobile">
+	<div className="hero-head">
 		<nav className="navbar">
 			<div className="container">
 				<div className="navbar-brand">
@@ -14,8 +13,7 @@ const Navbar = () => (
 						className="navbar-item"
 						href="https://github.com/amandeepmittal/gatsby-bulma-quickstart"
 					>
-						<img src={gatsbyLogo} alt="Logo-1" />
-						<img src={bulmaLogo} alt="Logo-2" />
+						<img src={logo} alt="Logo" />
 					</a>
 				</div>
 				<div id="navbarMenuHeroA" className="navbar-menu">
