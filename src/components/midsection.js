@@ -1,15 +1,7 @@
 import React from 'react';
-import {
-	FaSass,
-	FaHtml5,
-	FaReact,
-	FaMobileAlt,
-	FaRocket,
-	FaOsi
-} from 'react-icons/fa';
 
 import './style.scss';
-import Emoji from './emoji';
+
 
 const Midsection = () => (
 	<div>
@@ -115,6 +107,20 @@ const Midsection = () => (
 				</div>
 			</div>
 		</section>
+
+		<section className="section">
+			<div className="container">
+				<div className="columns is-multiline">
+					<div className="column is-half">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/i_Y0Uhog-bE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div className="column is-half">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/w1oDlCCwOgM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+
 	</div>
 );
 
