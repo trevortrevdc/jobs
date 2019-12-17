@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaGithub } from 'react-icons/fa';
 
 import './style.scss';
 import logo from '../images/logo.png';
@@ -19,15 +18,6 @@ const Navbar = () => (
 				<div id="navbarMenuHeroA" className="navbar-menu">
 					<div className="navbar-end">
 						<span className="navbar-item">
-							<a
-								className="button is-danger is-inverted"
-								href="https://github.com/amandeepmittal/gatsby-bulma-quickstart"
-							>
-								<span className="icon">
-									<FaGithub size="fa-2x" />
-								</span>
-								<span>Download</span>
-							</a>
 						</span>
 					</div>
 				</div>
