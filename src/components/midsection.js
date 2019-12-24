@@ -5,7 +5,7 @@ import './style.scss';
 
 const Midsection = () => (
 	<div>
-		<section className="section">
+		{/* <section className="section">
 			<div className="container">
 				<p className="title is-2 has-text-weight-bold">Which Job is Right for You?</p>
 				<p className="subtitle is-5">It takes hundreds of smiling faces with many different talents to deliver on our promise of fun and safety every summer. Select a job category to learn more about our opportunities.</p>
@@ -48,7 +48,7 @@ const Midsection = () => (
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> */}
 
 		<section className="section">
 			<div className="container">
@@ -108,7 +108,7 @@ const Midsection = () => (
 			</div>
 		</section>
 
-		<section className="section">
+		{/* <section className="section">
 			<div className="container">
 				<div className="columns is-multiline">
 					<div className="column is-half video-responsive">
@@ -123,7 +123,7 @@ const Midsection = () => (
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> */}
 
 	</div>
 );
